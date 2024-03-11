@@ -7,7 +7,6 @@ function bubbleSort(inputArray) {
   
       for (let i = 0; i < len - 1; i++) {
         if (inputArray[i] > inputArray[i + 1]) {
-          // Swap elements if they are in the wrong order
           let temp = inputArray[i];
           inputArray[i] = inputArray[i + 1];
           inputArray[i + 1] = temp;
@@ -20,7 +19,6 @@ function bubbleSort(inputArray) {
     return inputArray;
   }
   
-  // Example usage
   let inputArray = [3, 6, 12, 5, 100, 1];
   let sortedArray = bubbleSort(inputArray);
   
